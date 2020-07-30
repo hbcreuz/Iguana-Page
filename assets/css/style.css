@@ -1,0 +1,135 @@
+body {
+    background-color: #000000;
+    text-align: center;
+    font-family: 'Raleway';
+    margin: 0;
+    /* Tuve que poner margin: 0, porque si lo sacaba, se me creaba un margin a las izquierda, y no se de donde viene */
+}
+
+
+/* HEADER */
+
+.sect-head {
+    width: 100%;
+}
+
+.headline-img img {
+    width: 100%;
+}
+
+.headline {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+
+/*DESCRIPCIÓN*/
+
+.desc-section {
+    display: flex;
+    margin-top: 2%;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+.desc-section p {
+    color: #ffffff;
+}
+
+.text-1 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    vertical-align: center;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 0%;
+    padding-top: 3.5%;
+}
+
+.img-text-1 {
+    vertical-align: center;
+    padding-right: 11.7%;
+    padding-top: 1.5%;
+}
+
+.img-text-1 img {
+    width: 95%;
+}
+
+
+/*CARACTERÍSTICAS*/
+
+.caract {
+    width: 100%;
+    background-color: #1E1A13;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.sub-title {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 4%;
+}
+
+
+/*ICONOS*/
+
+i {
+    color: #ffffff;
+}
+
+.icons {
+    display: inline-block;
+    width: 23%;
+}
+
+.icons p {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+
+/*IMAGENES*/
+
+.img-sect {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.imagenes {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.5%;
+}
+
+.imagenes img {
+    height: 202px;
+}
+
+
+/*FOOTER*/
+
+footer {
+    height: 9.5vh;
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 20px;
+    padding-top: 1.2vh;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
